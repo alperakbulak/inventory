@@ -12,11 +12,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.HashSet;
 import java.util.Set;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass=true)
 public class Application implements CommandLineRunner {
     @Autowired
     UserRepository userRepository;
@@ -67,3 +71,5 @@ public class Application implements CommandLineRunner {
         itemRepository.save(item4);
     }
 }
+
+
