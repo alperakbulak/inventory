@@ -19,6 +19,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import java.util.HashSet;
 import java.util.Set;
 
+@EnableCaching
 @SpringBootApplication
 @EnableAspectJAutoProxy(proxyTargetClass=true)
 public class Application implements CommandLineRunner {

@@ -5,6 +5,8 @@ import com.sabancidx.webapps.inventory.domain.ItemAddForm;
 import com.sabancidx.webapps.inventory.domain.User;
 import com.sabancidx.webapps.inventory.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -39,7 +41,7 @@ public class ItemServiceImpl implements ItemService {
             itemRepository.save(item);
         }
     }
-
+    @Cacheable(value = "items", cacheManager = "springCM")
     public Iterable<Item> getItems() {
         return itemRepository.findAll();
     }
@@ -55,7 +57,7 @@ public class ItemServiceImpl implements ItemService {
 
         return itemRepository.save(item);
     }
-
+    @CacheEvict(value = "items", allEntries = true)
     public void deleteItemById(long id) {
         itemRepository.delete(id);
     }
