@@ -25,7 +25,7 @@ public class FirstAspect {
     }
 
     @Before("within(com.sabancidx..*)")
-    public void deneme() {
+    public void ilkAspect() {
         System.out.println("It works");
     }
 
