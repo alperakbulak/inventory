@@ -1,6 +1,6 @@
-package com.sabancidx.webapps.inventory.repository;
+package com.alp.webapps.inventory.repository;
 
-import com.sabancidx.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.Item;
 import org.springframework.data.repository.CrudRepository;
 
 /**

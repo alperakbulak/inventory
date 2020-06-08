@@ -1,7 +1,7 @@
-package com.sabancidx.webapps.inventory.service;
+package com.alp.webapps.inventory.service;
 
-import com.sabancidx.webapps.inventory.domain.Item;
-import com.sabancidx.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.User;
 
 import java.util.List;
 import java.util.Map;

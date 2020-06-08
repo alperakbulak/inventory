@@ -1,8 +1,8 @@
-package com.sabancidx.webapps.inventory.controller;
+package com.alp.webapps.inventory.controller;
 
-import com.sabancidx.webapps.inventory.domain.User;
-import com.sabancidx.webapps.inventory.domain.validator.RegisterValidator;
-import com.sabancidx.webapps.inventory.service.UserService;
+import com.alp.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.domain.validator.RegisterValidator;
+import com.alp.webapps.inventory.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

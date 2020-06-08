@@ -1,4 +1,4 @@
-package com.sabancidx.webapps.inventory.controller;
+package com.alp.webapps.inventory.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

@@ -1,20 +1,19 @@
-package com.sabancidx.webapps.inventory;
+package com.alp.webapps.inventory;
 
 /**
  * Created by Alper AKBULAK
  */
 
-import com.sabancidx.webapps.inventory.domain.Item;
-import com.sabancidx.webapps.inventory.domain.User;
-import com.sabancidx.webapps.inventory.repository.ItemRepository;
-import com.sabancidx.webapps.inventory.repository.UserRepository;
+import com.alp.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.repository.ItemRepository;
+import com.alp.webapps.inventory.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.HashSet;
 import java.util.Set;

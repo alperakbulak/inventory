@@ -1,8 +1,8 @@
-package com.sabancidx.webapps.inventory.service;
+package com.alp.webapps.inventory.service;
 
-import com.sabancidx.webapps.inventory.domain.Item;
-import com.sabancidx.webapps.inventory.domain.User;
-import com.sabancidx.webapps.inventory.repository.UserRepository;
+import com.alp.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

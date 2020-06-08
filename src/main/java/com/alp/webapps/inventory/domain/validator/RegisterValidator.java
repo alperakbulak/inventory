@@ -1,7 +1,7 @@
-package com.sabancidx.webapps.inventory.domain.validator;
+package com.alp.webapps.inventory.domain.validator;
 
-import com.sabancidx.webapps.inventory.domain.User;
-import com.sabancidx.webapps.inventory.service.UserService;
+import com.alp.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

@@ -1,4 +1,4 @@
-package com.sabancidx.webapps.inventory.aspects;
+package com.alp.webapps.inventory.aspects;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;

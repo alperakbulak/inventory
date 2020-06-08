@@ -1,4 +1,4 @@
-package com.sabancidx.webapps.inventory.config;
+package com.alp.webapps.inventory.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;

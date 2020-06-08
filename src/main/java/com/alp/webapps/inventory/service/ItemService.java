@@ -1,7 +1,7 @@
-package com.sabancidx.webapps.inventory.service;
+package com.alp.webapps.inventory.service;
 
-import com.sabancidx.webapps.inventory.domain.ItemAddForm;
-import com.sabancidx.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.ItemAddForm;
 
 /**
  * Created by Alper AKBULAK

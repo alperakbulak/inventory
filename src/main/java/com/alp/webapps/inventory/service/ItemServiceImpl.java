@@ -1,9 +1,9 @@
-package com.sabancidx.webapps.inventory.service;
+package com.alp.webapps.inventory.service;
 
-import com.sabancidx.webapps.inventory.domain.Item;
-import com.sabancidx.webapps.inventory.domain.ItemAddForm;
-import com.sabancidx.webapps.inventory.domain.User;
-import com.sabancidx.webapps.inventory.repository.ItemRepository;
+import com.alp.webapps.inventory.domain.Item;
+import com.alp.webapps.inventory.domain.ItemAddForm;
+import com.alp.webapps.inventory.domain.User;
+import com.alp.webapps.inventory.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

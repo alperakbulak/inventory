@@ -1,9 +1,9 @@
-package com.sabancidx.webapps.inventory.controller;
+package com.alp.webapps.inventory.controller;
 
-import com.sabancidx.webapps.inventory.domain.ItemAddForm;
-import com.sabancidx.webapps.inventory.domain.ItemAssignForm;
-import com.sabancidx.webapps.inventory.service.ItemService;
-import com.sabancidx.webapps.inventory.service.UserService;
+import com.alp.webapps.inventory.domain.ItemAddForm;
+import com.alp.webapps.inventory.domain.ItemAssignForm;
+import com.alp.webapps.inventory.service.ItemService;
+import com.alp.webapps.inventory.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

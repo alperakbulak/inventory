@@ -1,4 +1,4 @@
-package com.sabancidx.webapps.inventory.domain;
+package com.alp.webapps.inventory.domain;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.security.core.GrantedAuthority;
