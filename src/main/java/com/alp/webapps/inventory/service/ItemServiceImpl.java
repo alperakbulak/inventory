@@ -9,7 +9,7 @@ import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.Set;
 
 /**
  * Created by Alper AKBULAK
@@ -34,6 +34,7 @@ public class ItemServiceImpl implements ItemService {
         return itemRepository.findOne(id);
     }
 
+    @CacheEvict(value = "items", allEntries = true)
     public void addItem(ItemAddForm form) {
         for (int i = 0; i < form.getAmount(); i++) {
             String inventoryCode = Long.toHexString(Double.doubleToLongBits(Math.random())).substring(10);

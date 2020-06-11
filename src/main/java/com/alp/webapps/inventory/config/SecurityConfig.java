@@ -18,7 +18,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @Order(SecurityProperties.ACCESS_OVERRIDE_ORDER)
-//@EnableWebSecurity
 @EnableWebMvcSecurity
 class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
@@ -27,7 +26,6 @@ class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                //.antMatchers("/jobs/create").authenticated()
                 .antMatchers("/register").permitAll()
                 .anyRequest()
                 .authenticated()
